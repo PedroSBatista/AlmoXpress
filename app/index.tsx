@@ -18,7 +18,7 @@ export default function Index() {
         </Text>
         <TextInput style={styles.textInput}></TextInput>
       </View>
-      <TouchableOpacity style={styles.button}>
+      <TouchableOpacity style={styles.button} onPress={()=>{router.push('/home')}}>
         <Text style={styles.textButton}>ACESSAR</Text>
       </TouchableOpacity>
 
